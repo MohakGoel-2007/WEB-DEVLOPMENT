@@ -22,7 +22,7 @@ h2 {
 .block-menu a {
     display: block;
     background: #3da2df;
-    color: #fff;
+    color: #a29d9d;
     padding: 16px;
     margin-bottom: 8px;
     text-decoration: none;
@@ -49,7 +49,7 @@ h2 {
 }
 .inlineblock-menu a {
     display: inline-block;
-    background: #a251be;
+    background: #c73ff5;
     color: #fff;
     padding: 10px 22px;
     margin-right: 10px;
