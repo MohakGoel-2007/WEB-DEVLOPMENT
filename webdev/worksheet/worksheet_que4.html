@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline vs Block Demo</title>
+    <style>
+        /* Default behavior demonstration */
+        p.default {
+            background-color: lightblue;
+        }
+
+        span.default {
+            background-color: lightgreen;
+        }
+
+        /* Swapped behavior using display property */
+        p.inline-demo {
+            display: inline;
+            background-color: lightcoral;
+        }
+
+        span.block-demo {
+            display: block;
+            background-color: khaki;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Default Behavior</h3>
+    <p class="default">This is a paragraph (block by default).</p>
+    <span class="default">This is a span (inline by default).</span>
+    <span class="default">Another span beside it.</span>
+
+    <h3>Modified Behavior</h3>
+    <p class="inline-demo">Paragraph forced to inline.</p>
+    <span class="block-demo">Span forced to block.</span>
+    <span class="block-demo">Another block span below.</span>
+
+</body>
+</html>
